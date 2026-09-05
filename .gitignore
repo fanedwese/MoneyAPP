@@ -1,0 +1,39 @@
+# Tauri / Rust
+src-tauri/target/
+src-tauri/.cargo/
+src-tauri/**/*.rs.bk
+*.exe
+*.db
+*.db-shm
+*.db-wal
+
+# Логи и база
+logs/
+*.log
+*.sqlite
+*.sqlite3
+
+# Node.js (у тебя уже есть, но оставлю для полноты)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Редакторы (у тебя уже есть)
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+# Сборки
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.msi
